@@ -8,3 +8,5 @@
 <!ELEMENT scripture (#PCDATA)>
 <!ELEMENT prayer (#PCDATA)>
 ]
+>
+
