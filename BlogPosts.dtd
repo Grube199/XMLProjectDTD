@@ -10,3 +10,4 @@
 <!ELEMENT scripture (#PCDATA)>
 <!ELEMENT prayer (#PCDATA)>
 ]>
+<!--content moved into xml-->
