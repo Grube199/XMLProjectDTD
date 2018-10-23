@@ -1,9 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/css" href="styles.css"?>
-<!DOCTYPE BlogPosts SYSTEM "BlogPosts.dtd">
+
+<!DOCTYPE BlogPosts [
+<!ELEMENT BlogPosts (BlogPost)+>
+<!ELEMENT BlogPost (date, topic, title, author, content, scripture, prayer?)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT topic (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+<!ELEMENT scripture (#PCDATA)>
+<!ELEMENT prayer (#PCDATA)>
+]>
 <BlogPosts>
     <BlogPost>
       <date> October 29, 2018</date>
+      <topic>Prodigals</topic>
       <title> Praying for the Prodigal</title>
       <author>Patricia van der Merwe</author>
       <content>article body</content>
@@ -13,8 +23,9 @@
 
    <BlogPost>
       <date>November 24, 2018</date>
+      <topic>Generational Curses</topic>
       <title>What's in my Family Line?</title>
-      <author type="Guest Blogger">Katharine Gruber</author>
+      <author>Katharine Gruber</author>
       <content>article body</content>
       <scripture>Bible reference</scripture>
       <prayer>prayer</prayer>
